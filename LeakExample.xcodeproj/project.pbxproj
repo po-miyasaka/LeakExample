@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24166FB722E5807100C21333 /* StrongMethodOrganizeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24166FB622E5807100C21333 /* StrongMethodOrganizeView.xib */; };
+		24166FB922E580C800C21333 /* StrongMethodOrganizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24166FB822E580C800C21333 /* StrongMethodOrganizeView.swift */; };
 		243ED63E22E570690046572C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED63D22E570690046572C /* AppDelegate.swift */; };
-		243ED64022E570690046572C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED63F22E570690046572C /* ViewController.swift */; };
-		243ED64322E570690046572C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243ED64122E570690046572C /* Main.storyboard */; };
-		243ED64522E5706B0046572C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243ED64422E5706B0046572C /* Assets.xcassets */; };
-		243ED64822E5706B0046572C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243ED64622E5706B0046572C /* LaunchScreen.storyboard */; };
+		243ED64022E570690046572C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED63F22E570690046572C /* RootViewController.swift */; };
+		243ED64322E570690046572C /* RootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243ED64122E570690046572C /* RootViewController.storyboard */; };
+		243ED65122E572F60046572C /* StrongDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED64F22E572F60046572C /* StrongDelegateViewController.swift */; };
+		243ED65222E572F60046572C /* StrongDelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243ED65022E572F60046572C /* StrongDelegateViewController.xib */; };
+		243ED65522E573110046572C /* StrongHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED65322E573110046572C /* StrongHandlerViewController.swift */; };
+		243ED65622E573110046572C /* StrongHandlerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243ED65422E573110046572C /* StrongHandlerViewController.xib */; };
+		243ED65922E573300046572C /* StrongMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED65722E573300046572C /* StrongMethodViewController.swift */; };
+		243ED65A22E573300046572C /* StrongMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243ED65822E573300046572C /* StrongMethodViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24166FB622E5807100C21333 /* StrongMethodOrganizeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrongMethodOrganizeView.xib; sourceTree = "<group>"; };
+		24166FB822E580C800C21333 /* StrongMethodOrganizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongMethodOrganizeView.swift; sourceTree = "<group>"; };
 		243ED63A22E570690046572C /* LeakExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		243ED63D22E570690046572C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		243ED63F22E570690046572C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		243ED64222E570690046572C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		243ED64422E5706B0046572C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		243ED64722E5706B0046572C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		243ED63F22E570690046572C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		243ED64222E570690046572C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RootViewController.storyboard; sourceTree = "<group>"; };
 		243ED64922E5706B0046572C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243ED64F22E572F60046572C /* StrongDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongDelegateViewController.swift; sourceTree = "<group>"; };
+		243ED65022E572F60046572C /* StrongDelegateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrongDelegateViewController.xib; sourceTree = "<group>"; };
+		243ED65322E573110046572C /* StrongHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongHandlerViewController.swift; sourceTree = "<group>"; };
+		243ED65422E573110046572C /* StrongHandlerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrongHandlerViewController.xib; sourceTree = "<group>"; };
+		243ED65722E573300046572C /* StrongMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongMethodViewController.swift; sourceTree = "<group>"; };
+		243ED65822E573300046572C /* StrongMethodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrongMethodViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				243ED63D22E570690046572C /* AppDelegate.swift */,
-				243ED63F22E570690046572C /* ViewController.swift */,
-				243ED64122E570690046572C /* Main.storyboard */,
-				243ED64422E5706B0046572C /* Assets.xcassets */,
-				243ED64622E5706B0046572C /* LaunchScreen.storyboard */,
+				243ED63F22E570690046572C /* RootViewController.swift */,
+				243ED64122E570690046572C /* RootViewController.storyboard */,
+				243ED64F22E572F60046572C /* StrongDelegateViewController.swift */,
+				243ED65022E572F60046572C /* StrongDelegateViewController.xib */,
+				243ED65722E573300046572C /* StrongMethodViewController.swift */,
+				243ED65822E573300046572C /* StrongMethodViewController.xib */,
+				24166FB822E580C800C21333 /* StrongMethodOrganizeView.swift */,
+				24166FB622E5807100C21333 /* StrongMethodOrganizeView.xib */,
+				243ED65322E573110046572C /* StrongHandlerViewController.swift */,
+				243ED65422E573110046572C /* StrongHandlerViewController.xib */,
 				243ED64922E5706B0046572C /* Info.plist */,
 			);
 			path = LeakExample;
@@ -122,9 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243ED64822E5706B0046572C /* LaunchScreen.storyboard in Resources */,
-				243ED64522E5706B0046572C /* Assets.xcassets in Resources */,
-				243ED64322E570690046572C /* Main.storyboard in Resources */,
+				243ED65622E573110046572C /* StrongHandlerViewController.xib in Resources */,
+				243ED65222E572F60046572C /* StrongDelegateViewController.xib in Resources */,
+				243ED65A22E573300046572C /* StrongMethodViewController.xib in Resources */,
+				243ED64322E570690046572C /* RootViewController.storyboard in Resources */,
+				24166FB722E5807100C21333 /* StrongMethodOrganizeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +155,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243ED64022E570690046572C /* ViewController.swift in Sources */,
+				243ED65122E572F60046572C /* StrongDelegateViewController.swift in Sources */,
+				24166FB922E580C800C21333 /* StrongMethodOrganizeView.swift in Sources */,
+				243ED64022E570690046572C /* RootViewController.swift in Sources */,
+				243ED65522E573110046572C /* StrongHandlerViewController.swift in Sources */,
 				243ED63E22E570690046572C /* AppDelegate.swift in Sources */,
+				243ED65922E573300046572C /* StrongMethodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		243ED64122E570690046572C /* Main.storyboard */ = {
+		243ED64122E570690046572C /* RootViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				243ED64222E570690046572C /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		243ED64622E5706B0046572C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				243ED64722E5706B0046572C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = RootViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6UU7923NK;
 				INFOPLIST_FILE = LeakExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6UU7923NK;
 				INFOPLIST_FILE = LeakExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
